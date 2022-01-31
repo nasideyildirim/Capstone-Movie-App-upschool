@@ -1,0 +1,51 @@
+
+.movieInfo {
+    background-color: rgba(0, 0, 0, 0.644);
+    position: relative;
+}
+
+.add-to-favourites {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    transition: ease .3s all;
+    cursor: pointer;
+    color: rgb(250, 213, 7);
+}
+
+.add-to-watched {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    transition: ease .3s all;
+    cursor: pointer;
+    color: rgb(250, 213, 7);
+}
+
+/* .add-to-favourites:hover {
+    color: red;
+} */
+
+.movie-title {
+    font-size: 40px;
+    font-weight: 700 !important;
+    color: #0275d8;
+}
+.breadcrumb {
+    margin-bottom: 0 !important;
+    background-color: #fff !important;    
+}
+
+.breadcrumb a {
+    text-decoration: none !important;
+}
+
+.movieInfoContainer {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    min-height: 100vh;
+}
+
+
+
+

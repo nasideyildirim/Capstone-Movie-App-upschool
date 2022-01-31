@@ -1,0 +1,12 @@
+.person-img {
+    width: 300px;
+}
+
+.person-info h5 {
+    color: #0275d8;
+    text-align: justify;
+}
+
+.person-info small {
+    color: #fff;
+}

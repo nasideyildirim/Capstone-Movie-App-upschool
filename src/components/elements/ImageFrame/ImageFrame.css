@@ -1,0 +1,17 @@
+.image-frame {
+    transition: .5s ease;
+}
+
+.image-frame:hover {
+    transform: scale(1.07);
+    border: none !important;
+}
+
+.card-box {
+    -webkit-box-shadow: 3px 2px 20px 1px rgba(0,0,0,0.89); 
+    box-shadow: 3px 2px 20px 1px rgba(0,0,0,0.89);    
+}
+
+a {
+    text-decoration: none !important;
+}

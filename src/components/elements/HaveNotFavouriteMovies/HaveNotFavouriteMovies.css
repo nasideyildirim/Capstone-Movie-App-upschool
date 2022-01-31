@@ -1,0 +1,12 @@
+.text-container {
+    height: calc(100vh - 74px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.no-movie-img {
+    width: 150px;
+    margin-bottom: 20px;
+}

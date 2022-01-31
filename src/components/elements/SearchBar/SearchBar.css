@@ -1,0 +1,132 @@
+.form-control {
+    border: 4px inset rgba(248, 192, 7, 0.973) !important;
+    border-radius: 25px ;
+    position: center;
+    
+   
+}
+
+
+
+::placeholder {
+    text-align: left;
+}
+
+.gener{
+    position: right;
+    right: 20px;
+    cursor: pointer;
+    color: blue;
+    outline: none;
+    border: none;
+    font-weight: 800;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+   
+    padding-bottom: 0.5rem;
+}
+
+.gener:hover{
+    color: black;
+    background-color: blue;
+    transition: all 0.52s;
+
+
+}
+.forme{
+    min-height: 400px; 
+    position: center;
+    display: none;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    text-align: center;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid blue;
+    border-right: 1px solid blue;
+    border-bottom: 1px solid blue;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(202, 17, 17, 0.1);
+}
+.forme .close-btn{
+    color: blue;
+    width: 20px;
+    margin-top: -10px;
+    display: flex;
+    font-size: 25px;
+    cursor: pointer;
+}
+.close-btn:hover{
+    color: blue;
+}
+.forme h2{
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+}
+form{
+    margin: 20px;
+}
+label{
+    display: block;
+    color: blue;
+    font-size: 18px;
+    margin-top: 10px;
+}
+input{
+    display: block;
+    width: 90%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid blue;
+    padding: 10px;
+    color: blue;
+}
+.forme button{
+    display: block;
+    width: 95%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, blue, 
+    #095a6e);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+
+}
+.forme button:hover{
+    background: linear-gradient(to right, blue, 
+    #023e46);
+
+}
+.forme a{
+    text-decoration: none;
+    color: brown;
+
+}
+
+.link{
+    margin-top: 30px;
+    text-align: center;
+    color: brown;
+}
+
+.forme a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 530px){
+    .navbar img{
+        width: 100px;
+    }
+
+}

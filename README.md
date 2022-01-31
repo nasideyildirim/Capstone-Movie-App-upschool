@@ -1,1 +1,1 @@
-# Capstone-Project-UpSchool
+React TMDB API Movie Project

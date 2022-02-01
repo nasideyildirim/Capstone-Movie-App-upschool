@@ -6,7 +6,6 @@ import { BASE_IMG, IMAGE_BASE_URL, BACKDROP_SIZE } from "../../../config";
 import './MovieInfo.css';
 import no_img from '../img/no_image.jpg';
 import no_img_bg from '../img/bg-not-found.jpg';
-
 import Proptypes from 'prop-types';
 import LoadMoreBtn from "../LoadMore/LoadMoreBtn";
 import Spinner from "../Spinner/Spinner";
@@ -98,7 +97,7 @@ const MovieInfo = ({ movieInfo, searchWord, directors, actors, visible, loadMore
             <Container>
                     
 
-                   <PageTitle title = "Film Actors" />
+                   <PageTitle title = "Film Cast" />
                     <Row>
                     {
                         actors.slice(0, `${visible}`).map((actor, i) => {

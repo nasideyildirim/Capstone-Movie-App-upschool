@@ -8,9 +8,10 @@ import Footer from '../Footer/Footer';
 import Movie from '../Movie/Movie';
 import NotFound from '../NotFound/NotFound';
 import ScrollTop from '../elements/ScrollTop/ScrollTop';
-import PersonInfo from '../PersonInfo/PersonInfo';
+
 import alertify from 'alertifyjs';
 import { addLocalStorage, removeMovieFromStorage  } from '../../Functions/StorageFunctions/storageFunctions';
+
 //import { Navbar } from 'react-bootstrap';
 //
 
@@ -190,7 +191,7 @@ class App extends Component {
                             />
 
 
-                            <Route exact path="/person/:personId" component={PersonInfo} />
+                            
                             <Route component={NotFound} />
                         </Switch>
                     </React.Fragment>

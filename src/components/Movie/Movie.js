@@ -3,6 +3,7 @@ import { BASE_URL, API_KEY } from '../../config';
 import Spinner from '../elements/Spinner/Spinner';
 import MovieInfo from '../elements/MovieInfo/MovieInfo';
 
+
 class Movie extends Component {
 
     state = {
@@ -10,6 +11,7 @@ class Movie extends Component {
         loadingMovies: false,
         loadingActors: false,
         actors: [],
+        similar_movies_array: [],
         directors: [],
         visible: 6, // This state is for how many actors rendered.
         

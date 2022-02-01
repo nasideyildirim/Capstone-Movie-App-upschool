@@ -26,8 +26,7 @@ const Navi = () => {
     }
         return (
             <Navbar bg="warning" variant="dark" expand="lg" sticky = "top">
-              
-                
+            
                 <Navbar.Brand> <Link to="/"  > <img src={`${logo}`} alt="logo" /> </Link> </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -60,11 +59,8 @@ const Navi = () => {
                                 <span className='text-primary'>Watched</span>
                         </Nav.Link>
 
-                        
-                     
                     </Nav>
                 </Navbar.Collapse>
-                
             </Navbar>
         )
 }

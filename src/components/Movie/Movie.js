@@ -84,9 +84,6 @@ class Movie extends Component {
             })
     }
 
-   
-    
-
     loadMore = () => {
         this.setState({
             visible: this.state.visible + 6,
@@ -95,7 +92,7 @@ class Movie extends Component {
 
     render() {
         const { movie, loadingActors, loadingMovies, actors, directors, visible } = this.state
-        const { location, getFavouriteMovies } = this.props
+        const { location, getFavouriteMovies, getWatchedMovies } = this.props
         return (
             <React.Fragment>
                 { loadingActors || loadingMovies  ? <Spinner /> :
@@ -109,6 +106,7 @@ class Movie extends Component {
                             loadMore={this.loadMore}
                             loading={(loadingActors || loadingMovies)}
                             getFavouriteMovies={getFavouriteMovies}
+                            getWatchedMovies={getWatchedMovies}
                             
                         /> : null
                 }

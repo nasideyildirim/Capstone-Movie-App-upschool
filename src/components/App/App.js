@@ -8,14 +8,8 @@ import Footer from '../Footer/Footer';
 import Movie from '../Movie/Movie';
 import NotFound from '../NotFound/NotFound';
 import ScrollTop from '../elements/ScrollTop/ScrollTop';
-
 import alertify from 'alertifyjs';
 import { addLocalStorage, removeMovieFromStorage  } from '../../Functions/StorageFunctions/storageFunctions';
-
-//import { Navbar } from 'react-bootstrap';
-//
-
-
 import UserProvider from '../../context';
 
 class App extends Component {
@@ -124,26 +118,18 @@ class App extends Component {
     }
 
 
-
     render() {
 
         const { favouriteMovies , watchedMovies  } = this.state;
         
-        
-        
-
         return (
-            <Router>
-                
+            <Router> 
                 <UserProvider>
                 <ScrollTop>
                     <React.Fragment>
                         <Navbar />
                         <Switch>
                             <Route exact path="/" component={Home} />
-                            
-                            
-                   
                             <Route exact path="/favourites"
                                 render = {
                                     props => (
@@ -189,16 +175,12 @@ class App extends Component {
                                     )
                                 }
                             />
-
-
-                            
                             <Route component={NotFound} />
                         </Switch>
                     </React.Fragment>
                     <Footer/>
                 </ScrollTop>
                 </UserProvider>
-                
             </Router>
         )
     }

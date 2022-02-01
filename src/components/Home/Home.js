@@ -86,12 +86,10 @@ class Home extends Component {
                 callback={this.searchMovies} 
                 placeHolder = "Search Movie"
                 />
-
-                
                 <Container className="mt-3">
                     <Row >
                         <Col sm = {6} className = " text-center ">
-                            {searchWord ? <h2 >{searchWord} Search Results </h2> : 
+                            {searchWord ? <h2 > Search Results {searchWord}</h2> : 
                             <div className='text-left text-primary mt-5'>
                             <h2><i>Discover / Trending</i></h2>
                             </div>

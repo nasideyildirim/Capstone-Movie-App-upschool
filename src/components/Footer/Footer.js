@@ -23,7 +23,6 @@ export default function Footer() {
                             </p>
                             </li>
                             
-                    
                         </ul>
                     </div>
                     <div className="row">
@@ -34,7 +33,7 @@ export default function Footer() {
   <div className="text-muted" to="#">© 2022 Copyright Naşide Yıldırım</div>
 </div>
 </div>
-          
+         
         </div>
             </div>
 
